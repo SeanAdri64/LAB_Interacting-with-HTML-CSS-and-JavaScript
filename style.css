@@ -1,0 +1,46 @@
+body {
+      background: linear-gradient(135deg, #1c5287, #4b4691);
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      font-family: "Poppins", sans-serif;
+      color: #2d3436;
+      margin: 0;
+    }
+
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 20px;
+      transition: color 0.4s ease;
+    }
+
+    .buttons {
+      display: flex;
+      gap: 15px;
+    }
+
+    button {
+      background-color: #0ca15e;
+      padding: 10px 20px;
+      font-size: 1.2rem;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      color: white;
+      transition: transform 0.2s, background-color 0.3s;
+    }
+
+    button:hover {
+      background-color: #82efb3;
+      transform: scale(1.1);
+    }
+
+    .decrement {
+      background-color: #d63031;
+    }
+
+    .decrement:hover {
+      background-color: #ff7675;
+    }
